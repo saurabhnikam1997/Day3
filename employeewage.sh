@@ -1,9 +1,9 @@
 #!/bin/bash -x
 
-isPresent=1;
-randomCheck=$((RANDOM%2));
+empisPresent=1;
+randomChk=$((RANDOM%2));
 
-if [ $isPresent -eq $randomCheck ];
+if [ $empisPresent -eq $randomChk ];
 then
 	echo "Employee is Present";
 else
