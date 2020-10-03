@@ -1,8 +1,8 @@
 #!/bin/bash -x
 
 
-read -p "Enter value of first x: " x
-read -p "Enter value of second y: " y
+read -p "Enter value of x: " x
+read -p "Enter value of y: " y
 Z= expr $x + $y
 
 echo "Result is" $z
